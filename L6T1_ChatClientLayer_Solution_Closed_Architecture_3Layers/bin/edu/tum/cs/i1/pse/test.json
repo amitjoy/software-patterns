@@ -1,0 +1,10 @@
+[
+  {
+    "class": "application.ChatClient",
+    "interfaces": ["ApplicationLayerInterface"]
+  },
+  {
+    "class": "presentation.AESEncryption",
+    "interfaces": ["PresentationLayerInterface"]
+  }
+]

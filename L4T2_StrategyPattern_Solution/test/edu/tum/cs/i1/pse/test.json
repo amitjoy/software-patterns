@@ -1,0 +1,115 @@
+[
+  {
+    "class": "Policy",
+    "constructors": [
+      {
+        "modifiers": [
+          "public"
+        ],
+        "parameters": [
+          "Context"
+        ]  
+      }
+    ],
+    "fields": {
+      "timeIsImportant": "boolean",
+      "spaceIsImportant": "boolean",
+      "context": "Context"
+    },
+   
+    "methods": {
+      "setTimeIsImportant": {
+        "parameters": [
+          "boolean"
+        ],
+        "returnType": "void"
+      },
+      "setSpaceIsImportant": {
+        "parameters": [
+          "boolean"
+        ],
+        "returnType": "void"
+      },
+      "isTimeImportant": {
+        "parameters": [
+        ],
+        "returnType": "boolean"
+      },
+      "isSpaceImportant": {
+        "parameters": [
+        ],
+        "returnType": "boolean"
+      },
+      "configure": {
+        "parameters": [
+          "boolean",
+          "boolean"
+        ],
+      	"returnType": "void"
+      }
+    }
+  },
+  {
+    "class": "Context",
+    "fields": {
+      "sortAlgorithm": "SortStrategy",
+      "array": "int[]"
+    },
+    "methods": {
+      "setArray": {
+        "modifiers": [
+          "public"
+        ],
+        "parameters": [
+          "int[]"
+        ],
+        "returnType": "void"
+      },
+      "setSortAlgorithm": {
+        "modifiers": [
+          "public"
+        ],
+        "parameters": [
+          "SortStrategy"
+        ],
+        "returnType": "void"
+      },
+      "sort": {
+        "modifiers": [
+          "public"
+        ],
+        "parameters": [
+        ],
+        "returnType": "void"
+      }
+    }
+  },
+  {
+    "class": "SortStrategy",
+    "methods": {
+      "performSort": {
+        "modifiers": [
+          "public"
+        ],
+        "parameters": [
+          "int[]"
+        ],
+        "returnType": "void"
+      }
+    }
+  },
+  {
+    "class": "Client",
+    "methods": {
+      "main": {
+        "modifiers": [
+          "public"
+        ],
+        "parameters": [
+          "String[]"
+        ],
+        "returnType": "void"
+      }
+    }
+  }
+]

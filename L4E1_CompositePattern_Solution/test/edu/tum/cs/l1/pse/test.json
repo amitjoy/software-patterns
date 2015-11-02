@@ -1,0 +1,66 @@
+[
+  {
+    "class": "Menu",
+    "superclass": "MenuComponent",
+    "fields": {
+      "menuComponents": "ArrayList<MenuComponent>"
+    },
+    "methods": {
+      "add": {
+        "parameters": [
+          "MenuComponent"
+        ],
+        "returnType": "void"
+      },
+      "remove": {
+        "parameters": [
+          "MenuComponent",
+          "int"
+        ],
+        "returnType": "void"
+      },
+      "getChild": {
+        "parameters": [
+          "int"
+        ],
+      	"returnType": "MenuComponent"
+      }
+    }
+  },
+  {
+    "class": "MenuComponent",
+    "fields": {
+      "name": "String",
+      "description": "String"
+    },
+    "methods": {
+      "print": {
+      	"returnType": "void"
+      }
+    }
+  },
+  {
+    "class": "MenuItem",
+    "superclass": "MenuComponent",
+    "fields": {
+      "vegetarian": "boolean",
+      "price": "int"
+    },
+    "methods": {
+
+    },
+    "constructors": [
+      {
+        "modifiers": [
+          "public"
+        ],
+        "parameters": [
+          "String",
+          "String",
+          "boolean",
+          "double"
+        ]
+      }
+    ]
+  }
+]

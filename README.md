@@ -1,1 +1,1 @@
-# software-patterns
+# TU Munich Design Pattern Exercises

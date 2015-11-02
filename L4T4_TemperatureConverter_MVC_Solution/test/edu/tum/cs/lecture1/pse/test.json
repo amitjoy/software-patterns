@@ -1,0 +1,144 @@
+[
+  {
+    "class": "CelsiusGUI",
+    "superclass": "TemperatureGUI",
+    "fields": {
+    	"controller":"Controller",
+    },
+    "constructors": [
+      {
+        "modifiers": [
+          "public"
+        ],
+        "parameters": [
+          "Controller",
+          "int",
+          "int"
+        ]
+      }
+    ]
+  },
+ {
+    "class": "FahrenheitGUI",
+    "superclass": "TemperatureGUI",
+    "fields": {
+    	"controller":"Controller",
+    },
+    "constructors": [
+      {
+        "modifiers": [
+          "public"
+        ],
+        "parameters": [
+          "Controller",
+          "int",
+          "int"
+        ]
+      }
+    ]
+  }, 
+ {
+    "class": "KelvinGUI",
+    "superclass": "TemperatureGUI",
+    "fields": {
+    	"controller":"Controller",
+    },
+    "constructors": [
+      {
+        "modifiers": [
+          "public"
+        ],
+        "parameters": [
+          "Controller",
+          "int",
+          "int"
+        ]
+      }
+    ]
+  },  
+ {
+    "class": "GraphGUI",
+    "superclass": "Frame",
+    "fields": {
+    	"controller":"Controller",
+    },
+    "constructors": [
+      {
+        "modifiers": [
+          "public"
+        ],
+        "parameters": [
+          "Controller",
+          "int",
+          "int"
+        ]
+      }
+    ]
+  },     
+ {
+    "class": "SliderGUI",
+    "fields": {
+    	"controller":"Controller",
+    },
+    "constructors": [
+      {
+        "modifiers": [
+          "public"
+        ],
+        "parameters": [
+          "Controller",
+          "int",
+          "int"
+        ]
+      }
+    ]
+  },   
+ {
+    "class": "TemperatureGUI",
+    "constructors": [
+      {
+        "parameters": [
+          "String",
+          "int",
+          "int"
+        ]
+      }
+    ]
+  },   
+  {
+    "class": "Controller",
+    "fields": {
+      "model": "TemperatureModel",
+    },
+    "methods": {
+      "setC": {
+        "modifiers": [
+          "public"
+        ],
+        "parameters": [
+          "double"
+        ],
+        "returnType": "void"
+      },
+      "setK": {
+        "modifiers": [
+          "public"
+        ],
+        "parameters": [
+          "double"
+        ],
+        "returnType": "void"
+      },   
+      "setF": {
+        "modifiers": [
+          "public"
+        ],
+        "parameters": [
+          "double"
+        ],
+        "returnType": "void"
+      },         
+	}
+   
+  }
+]

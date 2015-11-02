@@ -1,0 +1,14 @@
+[
+  {
+    "class": "Client",
+    "superclass": "Applet",
+  },
+  {
+    "class": "FlipDownCommand",
+    "superclass": "LightSwitchCommand",
+  },
+  {
+    "class": "FlipUpCommand",
+    "superclass": "LightSwitchCommand",
+  }
+]
